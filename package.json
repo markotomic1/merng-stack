@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +20,11 @@
   "homepage": "https://github.com/markotomic1/merng-stack#readme",
   "dependencies": {
     "apollo-server": "^2.19.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "graphql": "^15.4.0",
-    "mongoose": "^5.10.14"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.14",
+    "nodemon": "^2.0.6"
   }
 }
